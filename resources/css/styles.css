@@ -75,12 +75,18 @@
 }
 
 body {
+    background-color:#F3F5F7;
     color: #172B4D;
     font-family: 'IBM Plex Sans', sans-serif;
-    min-width: 300px;
+    min-width: 500px;
+}
+
+header {
+    background-color: #FFFFFF;
 }
 
 section {
+    align-items: stretch;
     background-color: #F3F5F7;
     padding: 0 10%;
     margin: 0 0 14px 0;
@@ -115,11 +121,6 @@ p {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
-}
-
-section {
-    margin: 0 auto;
-    align-items: stretch;
 }
 
 /* Color (swatches) */
@@ -201,3 +202,26 @@ section {
     font-size: 13px;
 }
 
+.text-style ul {
+    font-style: italic;
+    font-size: 13px;
+    position: relative;
+    left: 20px;
+}
+
+.text-style h1,
+.text-style h2,
+.text-style h3,
+.text-style p {
+    list-style-type: none;
+    text-align: left;
+    padding: 16px 0 8px 0;
+}
+
+footer p {
+    background-color: #FFFFFF;
+    display: block;
+    margin: 56px 0 0 0;
+    padding: 10px 20px 10px 0;
+    text-align: right;
+}
