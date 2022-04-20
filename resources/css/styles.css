@@ -70,14 +70,13 @@
 body {
     color: #172B4D;
     font-family: 'IBM Plex Sans', sans-serif;
-    min-width: 560px;
+    min-width: 300px;
 }
 
 section {
     background-color: #F3F5F7;
     padding: 0 10%;
     margin: 0 0 14px 0;
-    min-width: 570px;
 }
 
 h1 {
@@ -149,6 +148,7 @@ section {
 
 .primary-3 {
     background-color: #F3F5F7;
+    margin: 16px 0 0 0;
 }
 
 /* Secondary palette */
@@ -163,6 +163,7 @@ section {
 
 .secondary-3 {
     background-color: #35B37E;
+    margin: 16px 0 0 0;
 }
 
 .secondary-4 {
