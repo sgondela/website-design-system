@@ -1,4 +1,4 @@
-# Excursion
+# Website Design System
 
 > A prototype website style guide webpage for an imaginary web app.
 
